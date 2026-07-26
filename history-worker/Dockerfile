@@ -33,3 +33,5 @@ COPY --from=builder /app/history-worker .
 
 # Run the binary
 CMD ["./history-worker"]
+
+# DR trigger moshekipod-same-version-dr 1785071691
